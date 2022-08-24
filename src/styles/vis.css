@@ -1,0 +1,48 @@
+.vis {
+  color: rgb(45, 56, 67);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.57;
+  letter-spacing: 0.00714em;
+  overflow-x: auto;
+}
+
+.vis text {
+  fill: currentColor;
+  font-variant-numeric: tabular-nums;
+}
+
+.vis .halo {
+  stroke: #fff;
+  paint-order: stroke;
+  stroke-linejoin: round;
+  stroke-width: 4px;
+}
+
+.vis .muted {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+}
+
+.vis .axis-g text {
+  color: rgba(0, 0, 0, 0.54);
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+}
+
+.vis .axis-g .domain {
+  display: none;
+}
+
+.vis .ticker-text {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.334;
+  letter-spacing: 0em;
+}
