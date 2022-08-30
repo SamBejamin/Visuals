@@ -25,7 +25,7 @@ export default function VisDataToggle() {
       onChange={handleChange}
       aria-label="data toggle"
     >
-      <ToggleButton value="user" aria-label="your data">
+      <ToggleButton value="user1" aria-label="your data">
         Your Data
       </ToggleButton>
       <ToggleButton value="community" aria-label="community data">
