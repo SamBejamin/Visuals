@@ -1,5 +1,5 @@
 import communityData from "../data/StreamingHistory.json";
-import yourData1 from "../data/StreamingHistory0.json";
+import yourData from "../data/StreamingHistory0.json";
 import yourData2 from "../data/StreamingHistory1.json";
 import yourData3 from "../data/StreamingHistory2.json";
 import yourData4 from "../data/StreamingHistory3.json";
@@ -87,7 +87,7 @@ function transformData(data) {
 const initialData = [
   {
     id: "user1",
-    data: transformData(yourData1),
+    data: transformData(yourData),
     selected: true,
   },
   {
