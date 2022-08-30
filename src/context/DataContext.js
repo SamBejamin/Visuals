@@ -1,6 +1,14 @@
 import communityData from "../data/StreamingHistory.json";
-import yourData from "../data/StreamingHistory0.json";
+import yourData1 from "../data/StreamingHistory0.json";
 import yourData2 from "../data/StreamingHistory1.json";
+import yourData3 from "../data/StreamingHistory2.json";
+import yourData4 from "../data/StreamingHistory3.json";
+import yourData5 from "../data/StreamingHistory4.json";
+import yourData6 from "../data/StreamingHistory5.json";
+import yourData7 from "../data/StreamingHistory6.json";
+import yourData8 from "../data/StreamingHistory7.json";
+import yourData9 from "../data/StreamingHistory8.json";
+import yourData10 from "../data/StreamingHistory9.json";
 import { createContext, useContext, useReducer } from "react";
 
 const DataContext = createContext(null);
@@ -78,13 +86,53 @@ function transformData(data) {
 
 const initialData = [
   {
-    id: "user",
-    data: transformData(yourData),
+    id: "user1",
+    data: transformData(yourData1),
     selected: true,
   },
-    {
+  {
     id: "user2",
     data: transformData(yourData2),
+    selected: true,
+  },
+  {
+    id: "user3",
+    data: transformData(yourData3),
+    selected: true,
+  },
+  {
+    id: "user2",
+    data: transformData(yourData4),
+    selected: true,
+  },
+  {
+    id: "user2",
+    data: transformData(yourData5),
+    selected: true,
+  },
+  {
+    id: "user2",
+    data: transformData(yourData6),
+    selected: true,
+  },
+  {
+    id: "user2",
+    data: transformData(yourData7),
+    selected: true,
+  },
+  {
+    id: "user2",
+    data: transformData(yourData8),
+    selected: true,
+  },
+  {
+    id: "user2",
+    data: transformData(yourData9),
+    selected: true,
+  },
+  {
+    id: "user2",
+    data: transformData(yourData10),
     selected: true,
   },
   {
