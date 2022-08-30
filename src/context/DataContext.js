@@ -1,4 +1,5 @@
 import communityData from "../data/StreamingHistory.json";
+import yourData from "../data/StreamingHistory0.json";
 import { createContext, useContext, useReducer } from "react";
 
 const DataContext = createContext(null);
@@ -77,8 +78,8 @@ function transformData(data) {
 const initialData = [
   {
     id: "user",
-    data: [],
-    selected: false,
+    data: transformData(yourData),
+    selected: true,
   },
   {
     id: "community",
