@@ -1,5 +1,5 @@
 import communityData from "../data/StreamingHistory.json";
-import yourData from "../data/StreamingHistory0.json";
+import yourData from "../data/StreamingHistory0.json, ../data/StreamingHistory1.json";
 import { createContext, useContext, useReducer } from "react";
 
 const DataContext = createContext(null);
